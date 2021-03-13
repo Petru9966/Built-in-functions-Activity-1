@@ -8,3 +8,6 @@ if (len(character))!=1:
   print("You supposed to enter A SINGLE ONE CHARACTER!")
 else:
   print("The ASCII code for" , character, "is", ord(character))
+  print ("The next ASCII code is", ord(character)+1)
+  print("The next letter is", chr(ord(character)+1)) 
+print("\n\t\t\t Program ending!")  
